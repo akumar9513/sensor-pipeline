@@ -108,15 +108,19 @@ cp .env.example .env
 # Open .env and set DB_PASSWORD to your MySQL root password
 ```
 
-### 6. Generate sample data (optional)
+### 6. Download the real dataset (recommended)
+Download the IoT sensor dataset from Kaggle:
+- Go to: https://www.kaggle.com/datasets/garystafford/environmental-sensor-data-132k
+- Download and extract the zip file
+- Copy `iot_telemetry_data.csv` into the project root folder
+- Run the splitter script to prepare the data:
+```bash
+python3 prepare_kaggle_data.py
+```
+
+### 7. Or generate synthetic sample data (quick test)
 ```bash
 python generate_sample_data.py
-```
-This creates three CSV files in `data/` — 80 clean rows + 5 deliberately bad rows each — so you can test quarantine and validation immediately.
-
-### 7. Run the pipeline
-```bash
-python pipeline.py
 ```
 
 The pipeline will:
