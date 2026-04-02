@@ -16,3 +16,4 @@ logs/
 
 # macOS
 .DS_Store
+iot_telemetry_data.csv
