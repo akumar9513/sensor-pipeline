@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment — NEVER commit real credentials
+.env
+
+# Pipeline runtime folders
+data/
+processed/
+quarantine/
+logs/
+
+# macOS
+.DS_Store
