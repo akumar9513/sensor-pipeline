@@ -1,8 +1,7 @@
 # Real-Time Sensor Data Pipeline
 
-A production-grade Python pipeline that monitors a directory for incoming IoT sensor CSV files, validates and transforms the data, then stores it in MySQL — all in real time with fault tolerance and automatic retries.
+A production grade Python pipeline that monitors a directory for incoming IoT sensor CSV files, validates and transforms the data, then stores it in MySQL all in real time with fault tolerance and automatic retries.
 
----
 
 ## Architecture Overview
 
