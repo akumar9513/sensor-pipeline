@@ -94,7 +94,7 @@ def process_file(filepath: str):
         # Build list-of-dicts for raw readings
         reading_rows = clean_df[[
             "sensor_id", "timestamp", "location",
-            "temperature", "humidity", "pressure",
+            "temperature", "humidity",
             "source_file", "data_source",
         ]].where(pd.notnull(clean_df), None).to_dict(orient="records")
 

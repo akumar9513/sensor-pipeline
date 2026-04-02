@@ -117,11 +117,11 @@ def insert_readings(rows: list[dict]):
         return
     sql = """
         INSERT INTO sensor_readings
-            (sensor_id, timestamp, location, temperature, humidity, pressure,
+            (sensor_id, timestamp, location, temperature, humidity,
              source_file, data_source)
         VALUES
             (%(sensor_id)s, %(timestamp)s, %(location)s, %(temperature)s,
-             %(humidity)s, %(pressure)s, %(source_file)s, %(data_source)s)
+             %(humidity)s, %(source_file)s, %(data_source)s)
     """
     _bulk_execute(sql, rows)
     logger.info(f"Inserted {len(rows)} raw readings.")
