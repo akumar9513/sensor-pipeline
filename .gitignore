@@ -9,7 +9,6 @@ venv/
 .env
 
 # Pipeline runtime folders
-data/
 processed/
 quarantine/
 logs/
