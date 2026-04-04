@@ -254,8 +254,3 @@ sensor_pipeline/
 - **watchdog** — real-time file system monitoring
 - **mysql-connector-python** — MySQL database connectivity
 - **python-dotenv** — environment variable management
-
-### AI Assistance
-- This project was built with guidance from **Claude (Anthropic)** for code structure,
-  debugging, and architecture decisions. All code was reviewed, understood, and
-  run locally by the author.
