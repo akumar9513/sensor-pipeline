@@ -180,6 +180,7 @@ sensor_pipeline/
 ├── db.py                          # MySQL schema and insert helpers
 ├── generate_sample_data.py        # Synthetic test data generator
 ├── prepare_kaggle_data.py         # Splits Kaggle CSV into chunks
+├── SETUP.md                       # Step-by-step setup and verification guide
 ├── requirements.txt               # Python dependencies
 ├── .env                           # Your credentials (never commit this!)
 ├── .gitignore                     # Excludes .env, venv, logs/ etc.
