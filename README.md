@@ -195,6 +195,34 @@ sensor_pipeline/
 
 ---
 
+## Pipeline Results
+
+Results from processing the full Kaggle IoT Environmental Sensor dataset (405,184 rows).
+
+### Database Summary
+
+| Metric | Value |
+|---|---|
+| Total raw sensor readings | 411,427 |
+| Total aggregated metric rows | 3,350 |
+| Total error / quarantine logs | 468 |
+
+### Aggregated Sensor Metrics (normalized 0–1 scale)
+
+| Sensor Type | Min | Max | Avg |
+|---|---|---|---|
+| Temperature | 0.0 | 1.0 | 0.6577 |
+| Humidity | 0.0 | 1.0 | 0.4874 |
+| Pressure | 0.0 | 1.0 | 0.4898 |
+
+### Top 3 Most Active Sensors
+
+| Sensor ID | Total Readings |
+|---|---|
+| b8:27:eb:bf:9d:51 | 190,167 |
+| 00:0f:00:70:91:0a | 113,459 |
+| 1c:bf:ce:15:ec:4d | 107,558 |
+
 ## Fault Tolerance
 
 | Failure scenario | Behaviour |
